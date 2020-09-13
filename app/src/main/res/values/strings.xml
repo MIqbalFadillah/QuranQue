@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Quran Ku</string>
+
+
+    <string name="pb_name">Loading....</string>
+    <string name="ds_name">Design By MIF</string>
+
+
+<!--    list Item-->
+    <string name="ayat">7</string>
+    <string name="arti">TEST</string>
+    <string name="arabtext">arab Text</string>
+    <string name="Surat">Alfatihah</string>
+    <string name="diturunkan">Mekkah</string>
+    <string name="no_urut">1</string>
+</resources>

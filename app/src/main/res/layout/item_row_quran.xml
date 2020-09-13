@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:orientation="horizontal"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_item_photo"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        tools:src="@drawable/mekkah" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@id/img_item_photo"
+        android:layout_toRightOf="@id/img_item_photo"
+        android:orientation="vertical">
+
+     <TextView
+         android:id="@+id/tv_surat"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+
+         android:textSize="16sp"
+         android:textStyle="bold"
+         tools:text="@string/Surat"/>
+
+      <TextView
+          android:id="@+id/tv_arab"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:ellipsize="end"
+          android:maxLines="2"
+          tools:text="@string/arabtext" />
+
+        <TextView
+            android:id="@+id/tv_arti"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="2"
+            tools:text="@string/arti" />
+
+        <TextView
+            android:id="@+id/tv_ayat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="2"
+            tools:text="@string/ayat" />
+
+        <TextView
+            android:id="@+id/tv_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="2"
+            tools:text="@string/diturunkan" />
+
+    </LinearLayout>
+
+    <TextView
+        android:gravity="right"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="@string/no_urut"
+        android:textSize="30dp"/>
+
+</RelativeLayout>
